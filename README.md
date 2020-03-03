@@ -1,6 +1,21 @@
 # Orbital Plane Change Δv Calculator
 Calculate orbital plane change with Δv cost
 
+# Features
+* Calculate periapsis and apoapsis velcocity
+* Calculate the Δv cost needed to align the plane at periapsis and apoapsis
+* Select all 8 solar system planets and the Moon as a reference body
+* Dark / High contrast theme
+* Save the results to a text file
+* The "always on top" feature let's you keep the calculator always on top of other windows
+* Enable up to 11 decimal places for precise calculations
+
+## Keybindings
+* <b>Save results to file:</b> <kbd>Ctrl+S</kbd>
+* <b>Switch display mode:</b> <kbd>Ctrl+D</kbd>
+* <b>Show accurate results panel:</b> <kbd>Ctrl+R</kbd>
+* <b>Exit application:</b> <kbd>Ctrl+Q</kbd>
+
 ## Getting Started
 These instruction will help you get the calculator up and running on your Windows machine. 
 
@@ -11,17 +26,15 @@ These instruction will help you get the calculator up and running on your Window
 ```
 You can download it here: https://dotnet.microsoft.com/download/dotnet-framework/net472
 
-### Build
-To build the program, open the solution using Visual Studio and build it using .NET Framework 4.7.2.<br>
-
 ### Run the program
-The only current way to run the program is to build it yourself. <br>
-An executable file <b>will</b> be added to make things easier for those who do not wish to build the software themselves.
+The software doesn't need installation. You can download an executable file in the [latest releases section](https://github.com/marcom42/Orbital-Plane-Change-DV-Calculator/releases/tag/1.0.0)
 
+### Build
+To build the program, open the solution using Visual Studio and build it using .NET Framework 4.7.2
 
 ### Coding style
 Documentation is added to functions and methods by using Visual Studio default style
-```
+```c#
 /// <summary>
 /// Calculates velocity at periapsis in m/s
 /// </summary>
